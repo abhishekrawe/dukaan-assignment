@@ -13,7 +13,7 @@ function ProductComponent({image, title, text}) {
    <img class="card-img-top" src={image} alt="Card image cap"/>
    <div class="card-body">
      <h5 class="card-title">{title}</h5>
-     <p class="card-text">{text}</p>
+     <p class="card-text  text-xs-center">{text}</p>
    </div>
  </div>
  </div>
@@ -48,9 +48,7 @@ function ProductComponent({image, title, text}) {
   return (
 
 
-<div class="container my-5">
-      
-    
+<div class="container my-5">   
              <div class="row">
                <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
                  <img class="mb-3" src="asset/frp.svg" alt="Generic placeholder image" width="48" height="48"/>

@@ -1,3 +1,10 @@
+@font-face {
+  font-family:Imported ;
+  src: url(../src/font/galanogrotesque-medium.otf);
+}
+
+
+
 :root {
   --mainDark: #1A181E;
   --mainGrey: rgba(109,109,109);
@@ -15,4 +22,17 @@
   background-color:#146EB4 !important;
 }
 
+.text-xs-center{
+  font-family: 'Imported';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+
+.text{
+  font-family: Imported;
+}
 

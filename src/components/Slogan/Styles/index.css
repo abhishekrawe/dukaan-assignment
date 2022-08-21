@@ -1,3 +1,8 @@
+@font-face {
+    font-family:Imported ;
+    src: url(/src/font/galanogrotesque-regular.otf);
+}
+
 .main-card {
     z-index: 10;
     margin-top: -200px !important;
@@ -10,9 +15,10 @@
 }
 
 .texts{
+    font-family: Imported;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 350;
+    font-size: 25px;
     line-height: 28px;
 }
 .bg-main {
@@ -26,3 +32,9 @@
 .mb-5{
  padding-bottom: 80px;
 }
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
