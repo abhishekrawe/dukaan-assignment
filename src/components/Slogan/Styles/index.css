@@ -1,0 +1,25 @@
+.main-card {
+    z-index: 10;
+    margin-top: -200px !important;
+    
+}
+
+.px-5{
+    padding: 50px 100px 50px 100px !important;
+}
+
+.texts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.bg-main {
+  background-color: #FFFFFF;
+  ;
+}
+
+.bg-light{
+    background-color: #F2F2F2;
+    ;
+}

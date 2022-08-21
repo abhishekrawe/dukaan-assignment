@@ -7,54 +7,33 @@ import styled from 'styled-components'
      <FooterContainer className="main-footer">
       <div className="footer-middle">
       <div className="container">
-         <div className = "d-flex justify-content-between">
-         
+         <div className = "d-flex flex-wrap justify-content-between">
             <ul className="list-unstyled">
                <img src="/asset/white.svg" />
-               
             </ul>
-         
-
-         
             <ul className="list-unstyled">
                <li>Contact</li>
                <li>FAQ's</li>
-               
             </ul>
-      
-
-       
             <ul className="list-unstyled">
                <li>Tutorials</li>
                <li>Blog</li>
                
             </ul>
-      
-
-            
             <ul className="list-unstyled">
                <li>Privacy</li>
                <li>Banned Items</li>
                
             </ul>
-         
-
-            
             <ul className="list-unstyled">
                <li>About</li>
-               <li>Jobs </li>
-               
-            </ul>
-
-            
+               <li>Jobs </li>  
+            </ul>  
             <ul className="list-unstyled">
                <li>Facebook</li>
                <li>Twitter</li>
                <li>Linkedin</li>
-               
             </ul>
-         
-
          </div>
          <div className="footer-bottom ">
             <hr/>
@@ -62,16 +41,13 @@ import styled from 'styled-components'
             <p className="text-xs-center">
              Dukaan {new Date().getFullYear()}, All rights reserved.
             </p>
-
             <p> 
             Made in India <img src="/asset/flag.svg"/>
             </p>
             </div>
-            
          </div> 
       </div>
       </div>
-  
      </FooterContainer>
   );
 }
