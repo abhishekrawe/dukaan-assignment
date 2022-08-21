@@ -1,6 +1,4 @@
-
 import React from 'react'
-import styled from 'styled-components';
 import './Styles/index.css'
 
 function SloganComponent({sloganText}) {
@@ -77,7 +75,7 @@ function Slogan() {
         
 
         <div className='d-flex justify-content-center'>
-        <img className="mb-3" src="/asset/Gp.svg" width="1100"/>
+        <img className="mb-3" src="/asset/Gp.svg " width="1100" alt='pagination'/>
         </div>
           
           

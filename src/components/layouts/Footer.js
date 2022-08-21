@@ -10,7 +10,7 @@ import styled from 'styled-components'
       <div className="container">
          <div className = "d-flex flex-wrap justify-content-between">
             <ul className="list-unstyled">
-               <img src="/asset/white.svg" />
+               <img src="/asset/white.svg" alt="logo" />
             </ul>
             <ul className="list-unstyled">
                <li>Contact</li>
@@ -43,7 +43,7 @@ import styled from 'styled-components'
              Dukaan {new Date().getFullYear()}, All rights reserved.
             </p>
             <p> 
-            Made in India <img src="/asset/flag.svg"/>
+            Made in India <img src="/asset/flag.svg" alt="flag"/>
             </p>
             </div>
          </div> 
