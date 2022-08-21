@@ -5,20 +5,20 @@ function Navbar() {
   return (
 
 <NavContainer className="main-navbar">
-<nav class="navbar navbar-expand-lg bg-primary">
+<nav className="navbar navbar-expand-lg bg-primary">
 
-<div class="container container-fluid">
+<div className="container container-fluid">
   <a class="navbar-brand" href="#"> <img src="/asset/logo-dukaan.svg"/></a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       
     </ul>
-    <div class="d-flex">
-      <button class="btn bg-primary text-light me-3" >Sign in</button>
-      <button class="btn bg-light text-primary">Dukaan for PC</button>
+    <div className="d-flex">
+      <button className="btn bg-primary text-light me-3" >Sign in</button>
+      <button className="btn bg-light text-primary">Dukaan for PC</button>
     </div>
   </div>
 </div>
