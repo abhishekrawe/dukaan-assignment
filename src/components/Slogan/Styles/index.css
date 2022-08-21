@@ -1,6 +1,7 @@
 .main-card {
     z-index: 10;
     margin-top: -200px !important;
+    background-color: #FFFFFF!important;
     
 }
 
@@ -19,7 +20,9 @@
   ;
 }
 
-.bg-light{
+.background{
     background-color: #F2F2F2;
-    ;
+}
+.mb-5{
+ padding-bottom: 80px;
 }
