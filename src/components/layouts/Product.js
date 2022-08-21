@@ -10,7 +10,7 @@ function ProductComponent({image, title, text}) {
     
    <div className="col-sm">
    <div className="card border-0">
-   <img className="card-img-top" src={image} alt="Card image cap"/>
+   <img className="card-img-top" src={image} alt="Cardcap"/>
    <div className="card-body">
      <h5 className="card-title">{title}</h5>
      <p className="card-text  text-xs-center">{text}</p>
